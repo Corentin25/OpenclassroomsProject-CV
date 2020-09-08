@@ -1,0 +1,36 @@
+/*Début : Corps du site*/
+body {
+	background-color: white;
+	padding: inherit;
+	margin: inherit;
+	width: 100%;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: #424242;
+}
+@font-face {
+    font-family: '2dumbregular';
+    src: url('Fonts/H2/2Dumb-webfont.eot');
+    src: url('Fonts/H2/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/H2/2Dumb-webfont.woff2') format('woff2'),
+         url('Fonts/H2/2Dumb-webfont.woff') format('woff'),
+         url('Fonts/H2/2Dumb-webfont.ttf') format('truetype'),
+         url('Fonts/H2/2Dumb-webfont.svg#2dumbregular') format('svg');
+         font-weight: normal;
+   		 font-style: normal;
+}
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('Fonts/H1/SEASRN__-webfont.eot');
+    src: url('Fonts/H1/SEASRN__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/H1/SEASRN__-webfont.woff2') format('woff2'),
+         url('Fonts/H1/SEASRN__-webfont.woff') format('woff'),
+         url('Fonts/H1/SEASRN__-webfont.ttf') format('truetype'),
+         url('Fonts/H1/SEASRN__-webfont.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Fin : Corp du site*/
