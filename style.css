@@ -115,3 +115,59 @@ ul {
     text-align: left;
 }
 /*Fin : Header*/
+
+/*Début : Body*/
+.Colonne-gauche-et-partie-droite {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: inherit;
+}
+    /*Début : Partie gauche*/
+    .Colonne-gauche-bleu {
+        flex: 1;
+        background-color: #00BCD4;
+        width: 100%;
+        min-width: 380px;
+        height: auto;
+        text-align: center;
+    }
+    .Bloc-contact {
+        padding-top: 2%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+        padding-left: 10%;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: left;
+    }
+    .Bloc-A-poropos {
+        padding-top: 2%;
+        padding-right: 5%;
+        padding-bottom: 25%;
+        padding-left: 5%;
+        font-family: Arial;
+        font-size: 19px;
+        text-align: left;
+    }
+    .Bloc-pictos-loisirs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding:1%;
+        font-size: 52px;
+        color: black;
+    }
+    /*Fin : Partie gauche*/
+
+    /*Début : Partie droite*/
+    .Partie-droite-blanc {
+        flex: 3;
+        background-color: white;
+        width: 100%;
+        min-width: 470px;
+        height: auto;
+        text-align: left;
+    /*Fin : Partie droite*/
+    
+/*Fin : Body*/
