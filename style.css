@@ -1,7 +1,5 @@
 /*Début : Corps du site*/
 body {
-	background-color: white;
-	padding: inherit;
 	margin: inherit;
 	width: 100%;
 }
@@ -33,26 +31,37 @@ a:visited {
     font-weight: normal;
     font-style: normal;
 }
+@media all and (max-width: 1024px) {
+    .Photo-et-Hn {
+        width: 100%;
+        padding: inherit;
+        margin: inherit;
+    }
+    .Bloc-photo {
+        width: 100%;
+        padding: inherit;
+        margin: inherit;
+    }
+}
 h1 {
     text-align: left;
     font-size: 60px; 
     color: #424242;
     font-family: 'seasideresortnfregular';
-    margin-top: 8%;
+    margin-top: 12%;
     margin-left: 7%;
-    padding: 0px;
+    padding: inherit;
 }
 .H1-part-1 {
     color: #00BCD4;
 }
 h2 {
-    flex-wrap: wrap;
     text-align: left;
     font-size: 27px; 
     color: #424242;
     opacity: 0.9;
     font-family: '2dumbregular';
-    margin-left: 7%;
+    margin-left: 8%;
     padding-top: 1%;
     padding-bottom: inherit;
     margin-top: -3%;
@@ -64,7 +73,7 @@ ul {
     border-top: 2px solid #00BCD4;
     width: 75px;
     margin-top: -2%;
-    margin-left: 7%;
+    margin-left: 8%;
 }
 .h3-colonne-bleu {
     font-size: 23px;
@@ -72,46 +81,37 @@ ul {
     border-top: 1px white solid;
     border-bottom: 1px white solid;
     background-color: #424242; 
-    margin-top: 10%;
+    margin-top: 8%;
     padding: 2%; 
     color: white; 
     text-align: center;
 }
-.Bloc-general {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
+
 /*Fin : Corp du site*/
 
 /*Début : Header*/
 .Photo-et-Hn {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
     width: 100%;
-    height: auto;
     padding: inherit;
+    margin: inherit;
 }
 .Bloc-photo {
     flex: 1;
     background-color: #00BCD4;
-    width: 100%;
-    min-width: 380px;
-    height: auto;
-    text-align: center;
+    width: 25%;
+    min-width: 375px;
 }
 .Photo-profil {
     width: 100%;
-    max-width: 310px;
     margin-top: 4%;
+    text-align: center;
 }
 .Bloc-H1-et-H2 {
     flex: 3;
-    background-color: white;
-    width: 100%;
-    min-width: 470px;
-    height: auto;
+    width: 75%;
+    min-width: 375px;
     text-align: left;
 }
 /*Fin : Header*/
@@ -120,22 +120,22 @@ ul {
 .Colonne-gauche-et-partie-droite {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    width: 100%;
     padding: inherit;
+    margin: inherit;
 }
     /*Début : Partie gauche*/
     .Colonne-gauche-bleu {
         flex: 1;
         background-color: #00BCD4;
-        width: 100%;
-        min-width: 380px;
-        height: auto;
+        width: 25%;
+        min-width: 375px;
         text-align: center;
     }
     .Bloc-contact {
         padding-top: 2%;
         padding-right: 1%;
-        padding-bottom: 1%;
+        padding-bottom: 2%;
         padding-left: 10%;
         font-family: Arial;
         font-size: 20px;
@@ -163,11 +163,10 @@ ul {
     /*Début : Partie droite*/
     .Partie-droite-blanc {
         flex: 3;
-        background-color: white;
-        width: 100%;
-        min-width: 470px;
-        height: auto;
+        width: 75%;
+        min-width: 375px;
         text-align: left;
+    }
     /*Fin : Partie droite*/
-    
+
 /*Fin : Body*/
