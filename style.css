@@ -31,16 +31,12 @@ a:visited {
     font-weight: normal;
     font-style: normal;
 }
-@media all and (max-width: 1024px) {
-    .Photo-et-Hn {
-        width: 100%;
-        padding: inherit;
-        margin: inherit;
+@media all and (max-width: 750px) {
+    .Photo-profil {
+        max-width: 550px;
     }
-    .Bloc-photo {
-        width: 100%;
+    .Bloc-H1-et-H2 {
         padding: inherit;
-        margin: inherit;
     }
 }
 h1 {
@@ -48,7 +44,7 @@ h1 {
     font-size: 60px; 
     color: #424242;
     font-family: 'seasideresortnfregular';
-    margin-top: 12%;
+    margin-top: 10%;
     margin-left: 7%;
     padding: inherit;
 }
@@ -86,7 +82,6 @@ ul {
     color: white; 
     text-align: center;
 }
-
 /*Fin : Corp du site*/
 
 /*Début : Header*/
@@ -159,7 +154,6 @@ ul {
         color: black;
     }
     /*Fin : Partie gauche*/
-
     /*Début : Partie droite*/
     .Partie-droite-blanc {
         flex: 3;
@@ -167,6 +161,83 @@ ul {
         min-width: 375px;
         text-align: left;
     }
+    .Pictos-droite {
+        color: #00BCD4;
+        font-size: 26px;
+    }
+    .Check {
+        color: #00BCD4;
+        font-size: 18px;
+    }
+    .No-Check {
+        color: #00BCD4;
+        font-size: 13px;
+        padding-left: 1%;
+    }
+        /*Début : Bloc Formation-Experience*/
+        .Formation-Experience {
+            margin-top: 1%;
+            margin-bottom: 1%;
+            padding-left: 10%;
+            padding-right: 7%;
+        }
+            .h3-partie-blanc {
+                font-size: 23px;
+                font-family: Arial;
+                border-bottom: 2px solid #00BCD4;
+                padding: 1%;
+                color: #424242; 
+                text-align: left;
+            }
+            .Texte-et-puce {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .Texte-Gauche {
+                text-align: left;
+                width: 40%;
+                min-width: 310px;
+                font-size: 18px;
+                margin-top: 2%;
+                margin-left: 2%;
+            }
+            .Puce-droite {
+                text-align: left;
+                width: 55%;
+                min-width: 310px;
+                font-size: 18px;
+                margin-top: 2%;
+                margin-left: 2%;
+            }
+        /*Fin : Bloc Formation-Experience*/
+        /*Début : Bloc Recomandations*/
+        .Recomandations {
+            margin-top: 1%;
+            margin-bottom: 1%;
+            padding-left: 10%;
+            padding-right: 7%;
+        } 
+            .Textes-recommandations {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: -1%;
+            }
+            .Texte-1 {
+                text-align: left;
+                width: 40%;
+                min-width: 200px;
+                font-size: 18px;
+                margin-top: 2%;
+                margin-left: 4%;
+            }
+            .Texte-2 {
+                text-align: left;
+                width: 40%;
+                min-width: 200px;
+                font-size: 18px;
+                margin-top: 2%;
+                margin-left: 4%;
+            }
+        /*Fin : Bloc Recomandations*/
     /*Fin : Partie droite*/
-
 /*Fin : Body*/
