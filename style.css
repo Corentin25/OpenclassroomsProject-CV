@@ -195,13 +195,14 @@ ul {
             margin-bottom: 1%;
             padding-left: 10%;
             padding-right: 7%;
+            color: #424242;
         }
             .h3-partie-blanc {
                 font-size: 23px;
                 font-family: Arial;
                 border-bottom: 2px solid #00BCD4;
                 padding: 1%;
-                color: #424242; 
+                color: black; 
                 text-align: left;
             }
             .Texte-et-puce {
@@ -244,6 +245,7 @@ ul {
                 font-size: 18px;
                 margin-top: 2%;
                 margin-left: 4%;
+                color: #424242;
             }
             .Texte-2 {
                 text-align: left;
@@ -252,6 +254,7 @@ ul {
                 font-size: 18px;
                 margin-top: 2%;
                 margin-left: 4%;
+                color: #424242;
             }
         /*Fin : Bloc Recomandations*/
     /*Fin : Partie droite*/
