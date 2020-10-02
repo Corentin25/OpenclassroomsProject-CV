@@ -31,6 +31,13 @@ a:visited {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Fonts/Texte/Helvetica.ttf');
+    src: url('Fonts/Texte/Helvetica-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 @media all and (max-width: 750px) {
     .Photo-profil {
         max-width: 550px;
@@ -62,8 +69,14 @@ h2 {
     padding-bottom: inherit;
     margin-top: -3%;
 }
+p {
+    font-family: 'Helvetica';
+    font-size: 17px;
+}
 ul {
+    font-family: 'Helvetica';
     list-style-type: none;
+    font-size: 17px;
 }
 .H2-underline {
     border-top: 2px solid #00BCD4;
@@ -72,7 +85,7 @@ ul {
     margin-left: 8%;
 }
 .h3-colonne-bleu {
-    font-size: 23px;
+    font-size: 22px;
     font-family: Arial;
     border-top: 1px white solid;
     border-bottom: 1px white solid;
@@ -149,7 +162,9 @@ ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding:1%;
+        padding: 2%;
+        margin-top: 10%;
+        margin-bottom: 10%;
         font-size: 52px;
         color: black;
     }
