@@ -35,6 +35,12 @@ a:visited {
     font-family: 'Helvetica';
     src: url('Fonts/Texte/Helvetica.ttf');
     src: url('Fonts/Texte/Helvetica-Bold.ttf');
+    src: url('Fonts/Texte/Helvetica-BoldOblique.ttf');
+    src: url('Fonts/Texte/helvetica-compressed-5871d14b6903a.otf');
+    src: url('Fonts/Texte/helvetica-light-587ebe5a59211.ttf');
+    src: url('Fonts/Texte/Helvetica-Oblique.ttf');
+    src: url('Fonts/Texte/helvetica-rounded-bold-5871d05ead8de.otf');
+
     font-weight: normal;
     font-style: normal;
 }
@@ -43,7 +49,16 @@ a:visited {
         max-width: 550px;
     }
     .Bloc-H1-et-H2 {
-        padding: inherit;
+        padding-bottom: 1%;
+    }
+    .Bloc-A-poropos {
+        max-height: 280px;
+    }
+    .Partie-droite-blanc {
+        margin-top: 5%;
+    }
+    .Texte-et-puce {
+        margin-bottom: 10%;
     }
 }
 h1 {
@@ -90,7 +105,7 @@ ul {
     border-top: 1px white solid;
     border-bottom: 1px white solid;
     background-color: #424242; 
-    margin-top: 8%;
+    margin-top: inherit;
     padding: 2%; 
     color: white; 
     text-align: center;
@@ -121,6 +136,7 @@ ul {
     width: 75%;
     min-width: 375px;
     text-align: left;
+    margin-bottom: 4%;
 }
 /*Fin : Header*/
 
@@ -143,7 +159,7 @@ ul {
     .Bloc-contact {
         padding-top: 2%;
         padding-right: 1%;
-        padding-bottom: 2%;
+        padding-bottom: 12%;
         padding-left: 10%;
         font-family: Arial;
         font-size: 20px;
@@ -152,7 +168,7 @@ ul {
     .Bloc-A-poropos {
         padding-top: 2%;
         padding-right: 5%;
-        padding-bottom: 25%;
+        height: 750px;
         padding-left: 5%;
         font-family: Arial;
         font-size: 19px;
@@ -192,7 +208,7 @@ ul {
         /*Début : Bloc Formation-Experience*/
         .Formation-Experience {
             margin-top: 1%;
-            margin-bottom: 1%;
+            margin-bottom: 3%;
             padding-left: 10%;
             padding-right: 7%;
             color: #424242;
@@ -201,6 +217,7 @@ ul {
                 font-size: 23px;
                 font-family: Arial;
                 border-bottom: 2px solid #00BCD4;
+                margin-top: -1%;
                 padding: 1%;
                 color: black; 
                 text-align: left;
