@@ -61,6 +61,11 @@ a:visited {
         margin-bottom: 10%;
     }
 }
+@media all and (max-width: 1285px) {
+    .Bloc-A-poropos {
+        max-height: 280px;
+    }
+}
 h1 {
     text-align: left;
     font-size: 60px; 
@@ -168,7 +173,7 @@ ul {
     .Bloc-A-poropos {
         padding-top: 2%;
         padding-right: 5%;
-        height: 750px;
+        height: 800px;
         padding-left: 5%;
         font-family: Arial;
         font-size: 19px;
@@ -195,6 +200,9 @@ ul {
     .Pictos-droite {
         color: #00BCD4;
         font-size: 26px;
+    }
+    .Enseignes {
+        font-size: 20px;
     }
     .Check {
         color: #00BCD4;
