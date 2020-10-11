@@ -125,24 +125,24 @@ ul {
     padding: inherit;
     margin: inherit;
 }
-.Bloc-photo {
-    flex: 1;
-    background-color: #00BCD4;
-    width: 25%;
-    min-width: 375px;
-}
-.Photo-profil {
-    width: 100%;
-    margin-top: 4%;
-    text-align: center;
-}
-.Bloc-H1-et-H2 {
-    flex: 3;
-    width: 75%;
-    min-width: 375px;
-    text-align: left;
-    margin-bottom: 4%;
-}
+    .Bloc-photo {
+        flex: 1;
+        background-color: #00BCD4;
+        width: 25%;
+        min-width: 375px;
+        }
+        .Photo-profil {
+            width: 100%;
+            margin-top: 4%;
+            text-align: center;
+    }
+    .Bloc-H1-et-H2 {
+        flex: 3;
+        width: 75%;
+        min-width: 375px;
+        text-align: left;
+        margin-bottom: 4%;
+    }
 /*Fin : Header*/
 
 /*Début : Body*/
@@ -190,6 +190,7 @@ ul {
         color: black;
     }
     /*Fin : Partie gauche*/
+
     /*Début : Partie droite*/
     .Partie-droite-blanc {
         flex: 3;
@@ -251,6 +252,7 @@ ul {
                 margin-left: 2%;
             }
         /*Fin : Bloc Formation-Experience*/
+
         /*Début : Bloc Recomandations*/
         .Recomandations {
             margin-top: 1%;
@@ -258,7 +260,7 @@ ul {
             padding-left: 10%;
             padding-right: 7%;
         } 
-            .Textes-recommandations {
+            .Bloc-textes-recommandations {
                 display: flex;
                 flex-wrap: wrap;
                 margin-top: -1%;
